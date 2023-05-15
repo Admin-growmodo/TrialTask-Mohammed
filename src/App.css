@@ -1,0 +1,56 @@
+:root {
+    --container-background-color:#0c1524;
+    --text-white: #fff;
+    --button-font-size: 18px;
+    --button-background-color: #FF0000;
+    --outline-button-color:#FF0000;
+    --outline-border-color:#FF0000;
+}
+
+.container-bg {
+    background-color: var(--container-background-color);
+    height: 100%;
+}
+
+.text-white {
+  color: var(--text-white)
+}
+
+.list-items > h5 {
+  line-height: 0.7em;
+}
+
+.list-item-icon {
+  width: 2.5em;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.favorite-song-button-outline {
+  border:2px solid var(--outline-border-color);
+  color: var(--outline-button-color);
+}
+
+.favorite-song-button-outline:hover {
+  background-color: #fff;
+  color: var(--outline-button-color)
+}
+
+.favorite-song-button-none-outline {
+  background-color: var(--button-background-color);
+  color: #fff;
+}
+
+.favorite-song-button-none-outline:hover {
+  color: #fff;
+}
+
+.favorite-song-button {
+  border-radius: 32px;
+  padding: 0.4em 4em;
+  font-size: var(--button-font-size);
+  letter-spacing: .1em;
+  font-family: 'Bebas Neue', cursive;
+}
